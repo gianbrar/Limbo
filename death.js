@@ -85,38 +85,39 @@ switch (Math.floor((Math.random() * 50) + 1)) {
 
 switch (Math.floor((Math.random() * 15) + 1)) {
     case 1:
-        verb = " smashed ";
+        verb = "smashed";
         break;
     case 2:
-        verb = " crushed ";
+        verb = "crushed";
         break;
     case 3:
-        verb = " pinched ";
+        verb = "pinched";
         break;
     case 4:
-        verb = " collapsed ";
+        verb = "collapsed";
         break;
     case 5:
-        verb = " stabbed ";
+        verb = "stabbed";
         break;
     case 6:
-        verb = " ate ";
+        verb = "ate";
         break;
     case 7:
-        verb = " vicously ripped out ";
+        verb = "vicously ripped out";
         break;
     case 8:
-        verb = " LAZ'RD ";
+        verb = "LAZ'RD";
         break;
     case 9:
-        verb = " severed ";
+        verb = "severed";
         break;
     case 10:
-        verb = " burnt ";
+        verb = "burnt";
         break;
     case 11:
-        verb = "  ";
+        verb = "";
         break;
+    verb = " " + verb + " "
 }
 
 
