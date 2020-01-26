@@ -75,7 +75,17 @@ switch (Math.floor((Math.random() * 50) + 1)) {
         job = "Professional Bamboozler";
         break;
     case 21:
-        job = "";
+        job = "Linux Kernel Hacker";
+        break;
+    case 22:
+        job = "Hyperdrive Maintenance Worker";
+        break;
+    case 23:
+        job = "Sith Lord";
+        break;
+    case 24:
+        job = "The Guy From Star Trek Who Launches the Photon Torpedos";
+        break;
 }
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
@@ -188,7 +198,7 @@ if (prisonSentenceLen === 30) {
 else if (prisonSentenceLen === 1) {
     prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as 'Guilty.' Looks like no one cared about you!";
 }
-else if (prisonSentenceLen >= 20){
+else if (prisonSentenceLen >= 20) {
     newPrisonSentence = prisonSentenceLen + 1;
     prisonSentence = "Your killer got off with only " + newPrisonSentence + " years. You feel like justice has been served.";
 } 
