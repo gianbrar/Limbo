@@ -222,4 +222,4 @@ else {
 
 
 var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
-document.getElementById("death_story").valueOf = deathStory;
+document.getElementById("death_story").value = deathStory;
