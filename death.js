@@ -57,19 +57,24 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 5:
         killer = ""
 }
+
+
+
 switch (Math.floor((Math.random() * 15) + 1)) {
     case 1:
-        verb = "a Yakuza Boss";
+        verb = "smashed";
         break;
     case 2:
-        verb = "a Yakuza Boss";
+        verb = "crushed";
         break;
     case 3:
-        verb = "a Yakuza Boss";
+        verb = "pinched";
         break;
     case 4:
         verb = "a Yakuza Boss";
         break;
 }
+
+
 var deathStory = "Long story short, you died after " + killer;
 document.getElementById("death_story", deathStory)
