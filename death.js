@@ -10,7 +10,7 @@ var job;
 var prisonSentence;
 
 
-switch (Math.floor((Math.random() * 50) + 1)) {
+switch (Math.floor((Math.random() * 31) + 1)) {
     case 1:
         job = "Engineer";
         break;
@@ -86,6 +86,26 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 24:
         job = "The Guy From Star Trek Who Launches the Photon Torpedos";
         break;
+    case 25:
+        job = "Instagram Influencer";
+        break;
+    case 26:
+        job = "Tyrant";
+        break;
+    case 27:
+        job = "President of [insert random third world country here]";
+        break;
+    case 28:
+        job = "Priest";
+        break;
+    case 29:
+        job = "Monk";
+        break;
+    case 30:
+        job = "Anebriated Giraffe";
+        break;
+    case 31:
+        job = "Alarm Clock";
 }
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
@@ -215,6 +235,7 @@ else {
 }
 
 
-
+var deathStory = "Long story short, you died after " + killer + " " + verb + " your" + "";
+var causeOfDeath = "Died after " + killer + " " + verb + " your" + "";
 var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
 document.getElementById("death_story").value = deathStory;
