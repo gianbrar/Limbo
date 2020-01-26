@@ -46,6 +46,9 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 4:
         killer = "an overengetic child";
 }
+
+
+
 switch (Math.floor((Math.random() * 15) + 1)) {
     case 1:
         verb = "a Yakuza Boss";
