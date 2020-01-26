@@ -1,5 +1,12 @@
 var killer = "";
 var verb = "";
+var employed = true;
+var job = "";
+switch (Math.floor((Math.random() * 50) + 1)) {
+    case 1:
+        job = "Engineer";
+        break;
+}
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
         killer = "a Yakuza Boss";
@@ -43,8 +50,12 @@ switch (Math.floor((Math.random() * 50) + 1)) {
         }
     case 3:
         killer = "a distant cousin";
+        break;
     case 4:
-        killer = "an overengetic child";
+        killer = "an overenergetic child";
+        break;
+    case 5:
+        killer = ""
 }
 switch (Math.floor((Math.random() * 15) + 1)) {
     case 1:
