@@ -188,7 +188,7 @@ switch (Math.floor((Math.random() * 11) + 1)) {
         break;
     verb = " " + verb + " "
 }
-//
+
 
 
 var prisonSentenceLen = Math.floor((Math.random() * 31));
