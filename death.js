@@ -44,7 +44,7 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 3:
         killer = "a distant cousin";
     case 4:
-        killer = "";
+        killer = "an overengetic child";
 }
 switch (Math.floor((Math.random() * 15) + 1)) {
     case 1:
