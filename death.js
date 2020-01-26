@@ -61,4 +61,4 @@ switch (Math.floor((Math.random() * 15) + 1)) {
         break;
 }
 var deathStory = "Long story short, you died after " + killer;
-document.getElementById("deathStory", deathStory)
+document.getElementById("death_story", deathStory)
