@@ -85,19 +85,40 @@ switch (Math.floor((Math.random() * 50) + 1)) {
 
 switch (Math.floor((Math.random() * 15) + 1)) {
     case 1:
-        verb = "smashed";
+        verb = " smashed ";
         break;
     case 2:
-        verb = "crushed";
+        verb = " crushed ";
         break;
     case 3:
-        verb = "pinched";
+        verb = " pinched ";
         break;
     case 4:
-        verb = "a Yakuza Boss";
+        verb = " collapsed ";
+        break;
+    case 5:
+        verb = " stabbed ";
+        break;
+    case 6:
+        verb = " ate ";
+        break;
+    case 7:
+        verb = " vicously ripped out ";
+        break;
+    case 8:
+        verb = " LAZ'RD ";
+        break;
+    case 9:
+        verb = " severed ";
+        break;
+    case 10:
+        verb = " burnt ";
+        break;
+    case 11:
+        verb = "  ";
         break;
 }
 
 
 var deathStory = "Long story short, you died after " + killer + verb + "your" + "";
-document.getElementById("death_story", deathStory)
+document.getElementById("death_story")
