@@ -92,11 +92,11 @@ switch (Math.floor((Math.random() * 15) + 1)) {
     case 10:
         verb = " burnt ";
         break;
-    case 10:
+    case 11:
         verb = " burnt ";
         break;
 }
 
 
 var deathStory = "Long story short, you died after " + killer + verb + "your" + "";
-document.getElementById("death_story", deathStory)
+document.getElementById("death_story")
