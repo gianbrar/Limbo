@@ -7,6 +7,26 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
         job = "Engineer";
         break;
+    case 2:
+        job = "Homeless";
+        employed = false;
+        break;
+    case 3:
+        job = "Recently Downvoted Reddit User";
+        employed = false;
+        break;
+    case 4:
+        job = "Twitch Streamer";
+        break;
+    case 5:
+        job = "Fornite Fanatic";
+        employed = false;
+        break;
+    case 6:
+        job = "Construction Worker";
+        break;
+    case 7:
+        job = "";
 }
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
@@ -56,7 +76,9 @@ switch (Math.floor((Math.random() * 50) + 1)) {
         killer = "an overenergetic child";
         break;
     case 5:
-        killer = ""
+        if (employed === true) {
+            killer = "that annoying guy from work";
+        }
 }
 
 
