@@ -1,5 +1,5 @@
 var killer = "";
-var name = "";
+var verb = "";
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
         killer = "a Yakuza Boss";
@@ -45,5 +45,19 @@ switch (Math.floor((Math.random() * 50) + 1)) {
         killer = "a distant cousin";
     case 4:
         killer = "";
+}
+switch (Math.floor((Math.random() * 15) + 1)) {
+    case 1:
+        verb = "a Yakuza Boss";
+        break;
+    case 2:
+        verb = "a Yakuza Boss";
+        break;
+    case 3:
+        verb = "a Yakuza Boss";
+        break;
+    case 4:
+        verb = "a Yakuza Boss";
+        break;
 }
 var deathStory = "Long story short, you died after " + killer;
