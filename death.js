@@ -136,7 +136,7 @@ if (prisonSentenceLen === 30) {
     prisonSentence = "Your monstrous foe was given a life sentence.";
 }
 else if (prisonSentenceLen === 1) {
-    prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as Guilty. Looks like no one cared about you!";
+    prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as 'Guilty.' Looks like no one cared about you!";
 }
 else {
     newPrisonSentence = prisonSentenceLen + 1;
