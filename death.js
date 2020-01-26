@@ -243,8 +243,6 @@ else {
 }
 
 
-
-var deathStory = "Long story short, you died after " + killer + " " + verb + " your" + "";
-var causeOfDeath = "Died after " + killer + " " + verb + " your" + "";
-var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
+var deathStory = "Long story short, you died after " + killer + verb + "your" + "";
+var causeOfDeath = "Died after " + killer + verb + "your" + "";
 document.getElementById("death_story").value = deathStory;
