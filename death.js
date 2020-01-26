@@ -148,5 +148,7 @@ else {
     prisonSentence = "Your killer got off with " + newPrisonSentence + " years.";
 }
 
+
+
 var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
 document.getElementById("death_story")
