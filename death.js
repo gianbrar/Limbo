@@ -51,13 +51,13 @@ switch (Math.floor((Math.random() * 50) + 1)) {
 
 switch (Math.floor((Math.random() * 15) + 1)) {
     case 1:
-        verb = "a Yakuza Boss";
+        verb = "smashed";
         break;
     case 2:
-        verb = "a Yakuza Boss";
+        verb = "crushed";
         break;
     case 3:
-        verb = "a Yakuza Boss";
+        verb = "pinched";
         break;
     case 4:
         verb = "a Yakuza Boss";
