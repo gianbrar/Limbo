@@ -38,10 +38,12 @@ switch (Math.floor((Math.random() * 50) + 1)) {
                 break;
             case 11:
                 name = "Cain";
-            killer = "your psychotic neighbor neighbor, aptly named " + name + ".";
+            killer = "your psychotic neighbor neighbor, aptly named " + name + ",";
             break;
         }
     case 3:
-        killer = "a distant cousin"
+        killer = "a distant cousin";
+    case 4:
+        killer = "";
 }
 var deathStory = "Long story short, you died after " + killer;
