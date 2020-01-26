@@ -162,9 +162,9 @@ if (prisonSentenceLen === 30) {
 else if (prisonSentenceLen === 1) {
     prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as 'Guilty.' Looks like no one cared about you!";
 }
-else {
+else if (prisonSentenceLen < 20){
     newPrisonSentence = prisonSentenceLen + 1;
-    prisonSentence = "Your killer got off with " + newPrisonSentence + " years.";
+    prisonSentence = "Your killer got off with only " + newPrisonSentence + " years. You feel like justice has been served.";
 }
 
 
