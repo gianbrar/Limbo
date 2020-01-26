@@ -155,7 +155,7 @@ else if (prisonSentenceLen === 1) {
 }
 else {
     newPrisonSentence = prisonSentenceLen + 1;
-    prisonSentence = "Your killer got off with " + newPrisonSentence + " years.";
+    prisonSentence = "Your killer got off with only " + newPrisonSentence + " years.";
 }
 
 
