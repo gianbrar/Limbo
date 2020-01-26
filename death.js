@@ -1,6 +1,6 @@
-var killer;
-var verb;
-var bodyPart;
+var killer = "";
+var name = "";
+var verb = "";
 var employed = true;
 var job;
 switch (Math.floor((Math.random() * 50) + 1)) {
