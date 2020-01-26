@@ -188,7 +188,7 @@ switch (Math.floor((Math.random() * 11) + 1)) {
         break;
     verb = " " + verb + " "
 }
-
+//
 
 
 var prisonSentenceLen = Math.floor((Math.random() * 31));
@@ -217,4 +217,4 @@ else {
 
 
 var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
-window.document.getElementById("death_story").value = deathStory;
+document.getElementById("death_story").value = deathStory;
