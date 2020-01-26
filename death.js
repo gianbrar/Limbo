@@ -44,4 +44,4 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 3:
         killer = "a distant cousin"
 }
-var deathStory = "Long story short, you died after " + killer
+var deathStory = "Long story short, you died after " + killer;
