@@ -44,6 +44,15 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 10:
         job = "Baker";
         break;
+    case 11:
+        job = "Lawyer";
+        break;
+    case 12:
+        job = "Cybersecurity Specialist";
+        break;
+    case 13:
+        job = "Corporate Attorney";
+        break;
 }
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
