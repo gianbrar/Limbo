@@ -216,6 +216,7 @@ switch (Math.floor((Math.random() * 11) + 1)) {
         break;
     case 2:
         noun = "Lungs";
+        break;
 }
 
 
