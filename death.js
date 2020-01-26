@@ -79,6 +79,13 @@ switch (Math.floor((Math.random() * 50) + 1)) {
         if (employed === true) {
             killer = "that annoying guy from work";
         }
+        else {
+            killer = "your mom";
+        }
+        break;
+    case 6:
+        killer = "your mom";
+        break;
 }
 
 
@@ -118,7 +125,18 @@ switch (Math.floor((Math.random() * 15) + 1)) {
         verb = "  ";
         break;
 }
-
+var prisonSentenceLen = Math.floor((Math.random() * 30) + 1);
+var prisonSentence; 
+if (prisonSentenceLen === 30) {
+    prisonSentence = "Your monstrous foe was given a life sentence.";
+}
+else if (prisonSentenceLen === 1) {
+    prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as Guilty. Looks like no one cared about you!";
+}
+else {
+    newPrisonSentence = prisonSentenceLen + 1;
+    prisonSentence = "Your killer got off with " + newPrisonSentence + " years.";
+}
 
 var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
 document.getElementById("death_story")
