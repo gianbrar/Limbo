@@ -53,6 +53,29 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 13:
         job = "Corporate Attorney";
         break;
+    case 14:
+        job = "Electrical Engineer";
+        break;
+    case 15:
+        job = "Mathematician";
+        break;
+    case 16:
+        job = "Botanist";
+        break;
+    case 17:
+        job = "Semicolon";
+        break;
+    case 18:
+        job = "Javascript Debugger";
+        break;
+    case 19:
+        job = "Factory Line Worker";
+        break;
+    case 20:
+        job = "Professional Bamboozler";
+        break;
+    case 21:
+        job = "";
 }
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
@@ -111,6 +134,9 @@ switch (Math.floor((Math.random() * 50) + 1)) {
         break;
     case 6:
         killer = "your mom";
+        break;
+    case 7:
+        killer = "some neighborhood kids";
         break;
 }
 
