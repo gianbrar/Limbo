@@ -152,7 +152,7 @@ switch (Math.floor((Math.random() * 50) + 1)) {
 
 
 
-switch (Math.floor((Math.random() * 15) + 1)) {
+switch (Math.floor((Math.random() * 11) + 1)) {
     case 1:
         verb = "smashed";
         break;
@@ -184,26 +184,37 @@ switch (Math.floor((Math.random() * 15) + 1)) {
         verb = "burnt";
         break;
     case 11:
-        verb = "";
+        verb = "decapitated";
         break;
     verb = " " + verb + " "
 }
 
 
 
-var prisonSentenceLen = Math.floor((Math.random() * 31)); 
+var prisonSentenceLen = Math.floor((Math.random() * 31));
 if (prisonSentenceLen === 30) {
     prisonSentence = "Your monstrous foe was given a life sentence.";
 }
-else if (prisonSentenceLen === 1) {
+else if (prisonSentenceLen === 0) {
     prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as 'Guilty.' Looks like no one cared about you!";
 }
-else if (prisonSentenceLen >= 20) {
-    newPrisonSentence = prisonSentenceLen + 1;
-    prisonSentence = "Your killer got off with only " + newPrisonSentence + " years. You feel like justice has been served.";
-} 
+else if (prisonSentenceLen >= 20){
+    prisonSentence = "Your killer got off with " + prisonSentence + " years. You feel like justice has been served.";
+}
+else if (prisonSentenceLen >= 15){
+    prisonSentence = "Your killer got off with " + prisonSentence + " years.";
+}
+else if (prisonSentenceLen >= 10){
+    prisonSentence = "Your killer got off with only " + prisonSentence + " years.";
+}
+else if (prisonSentenceLen >= 5){
+    prisonSentence = "Your killer got off with only " + prisonSentence + " years. You feel like they deserved more for killing you.";
+}
+else {
+    prisonSentence = "Your killer got off with only " + prisonSentence + " years. AnOtHeR eFfEcTiVe RuLiNg StRaIgHt FrOm tHe UnItEd StAtEs JuStIcE sYsTeM.";
+}
 
 
 
 var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
-document.getElementById("death_story")
+document.getElementById("death_story").valueOf = deathStory;
