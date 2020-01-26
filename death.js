@@ -1,7 +1,8 @@
-var killer = "";
-var verb = "";
+var killer;
+var verb;
+var bodyPart;
 var employed = true;
-var job = "";
+var job;
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
         job = "Engineer";
@@ -14,7 +15,7 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 2:
         switch (Math.floor((Math.random() * 11) + 1)) {
             case 1:
-                name = "Ray";
+            name = "Ray";
                 break;
             case 2:
                 name = "Steve";
@@ -76,5 +77,5 @@ switch (Math.floor((Math.random() * 15) + 1)) {
 }
 
 
-var deathStory = "Long story short, you died after " + killer;
+var deathStory = "Long story short, you died after " + killer + verb + "your" + "";
 document.getElementById("death_story", deathStory)
