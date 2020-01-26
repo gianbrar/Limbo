@@ -2,6 +2,7 @@ var killer;
 var name;
 
 var verb;
+var noun;
 
 var employed = true;
 var job;
@@ -209,6 +210,13 @@ switch (Math.floor((Math.random() * 11) + 1)) {
     verb = " " + verb + " "
 }
 
+switch (Math.floor((Math.random() * 11) + 1)) {
+    case 1:
+        noun = "Cereberal Cortex";
+        break;
+    case 2:
+        noun = "Lungs";
+}
 
 
 var prisonSentenceLen = Math.floor((Math.random() * 31));
@@ -233,6 +241,7 @@ else if (prisonSentenceLen >= 5){
 else {
     prisonSentence = "Your killer got off with only " + prisonSentence + " years. AnOtHeR eFfEcTiVe RuLiNg StRaIgHt FrOm tHe UnItEd StAtEs JuStIcE sYsTeM.";
 }
+
 
 
 var deathStory = "Long story short, you died after " + killer + " " + verb + " your" + "";
