@@ -149,6 +149,7 @@ switch (Math.floor((Math.random() * 50) + 1)) {
             killer = "your psychotic neighbor neighbor, aptly named " + name + ",";
             break;
         }
+        break;
     case 3:
         killer = "a distant cousin";
         break;
@@ -207,8 +208,8 @@ switch (Math.floor((Math.random() * 11) + 1)) {
     case 11:
         verb = "decapitated";
         break;
-    verb = " " + verb + " "
 }
+verb = " " + verb + " "
 
 switch (Math.floor((Math.random() * 11) + 1)) {
     case 1:
@@ -243,7 +244,9 @@ else {
     prisonSentence = "Your killer got off with only " + prisonSentence + " years. AnOtHeR eFfEcTiVe RuLiNg StRaIgHt FrOm tHe UnItEd StAtEs JuStIcE sYsTeM.";
 }
 
+noun = job;
+job = noun;
 
-var deathStory = "Long story short, you died after " + killer + verb + "your" + "";
+var deathStory = "Long story short, you died after " + killer + verb + "your" + "_____. " + prisonSentence;
 var causeOfDeath = "Died after " + killer + verb + "your" + "";
-document.getElementById("death_story").value = deathStory;
+document.getElementById("death_story").value = deathStory + "     " + causeOfDeath;
