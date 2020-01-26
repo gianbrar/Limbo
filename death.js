@@ -1,4 +1,5 @@
 var killer = "";
+var name = "";
 var verb = "";
 var employed = true;
 var job = "";
