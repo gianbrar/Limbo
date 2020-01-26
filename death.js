@@ -7,6 +7,9 @@ var employed = true;
 var job;
 
 
+var prisonSentence;
+
+
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
         job = "Engineer";
@@ -130,8 +133,10 @@ switch (Math.floor((Math.random() * 15) + 1)) {
         break;
     verb = " " + verb + " "
 }
-var prisonSentenceLen = Math.floor((Math.random() * 30) + 1);
-var prisonSentence; 
+
+
+
+var prisonSentenceLen = Math.floor((Math.random() * 30) + 1); 
 if (prisonSentenceLen === 30) {
     prisonSentence = "Your monstrous foe was given a life sentence.";
 }
