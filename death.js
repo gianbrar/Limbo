@@ -142,7 +142,7 @@ switch (Math.floor((Math.random() * 50) + 1)) {
 
 
 
-switch (Math.floor((Math.random() * 15) + 1)) {
+switch (Math.floor((Math.random() * 11) + 1)) {
     case 1:
         verb = "smashed";
         break;
