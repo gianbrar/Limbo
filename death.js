@@ -86,6 +86,11 @@ switch (Math.floor((Math.random() * 50) + 1)) {
     case 24:
         job = "The Guy From Star Trek Who Launches the Photon Torpedos";
         break;
+    case 25:
+        job = "Instagram Influencer";
+        break;
+    case 26:
+        job = "";
 }
 switch (Math.floor((Math.random() * 50) + 1)) {
     case 1:
