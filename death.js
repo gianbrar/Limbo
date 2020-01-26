@@ -3,6 +3,7 @@ function setDeathStory(){
     var name;
 
     var verb;
+    
     var noun;
 
     var employed = true;
@@ -11,7 +12,7 @@ function setDeathStory(){
 
     var prisonSentence;
 
-
+    //Job and employment status
     switch (Math.floor((Math.random() * 31) + 1)) {
         case 1:
             job = "Engineer";
@@ -109,14 +110,19 @@ function setDeathStory(){
         case 31:
             job = "Alarm Clock";
     }
-    switch (Math.floor((Math.random() * 50) + 1)) {
+    
+    
+    
+    //Your killer
+    switch (Math.floor((Math.random() * 7) + 1)) {
         case 1:
             killer = "a Yakuza Boss";
             break;
         case 2:
+            killer = "a psychotic neighbor neighbor, aptly named " + name + ",";
             switch (Math.floor((Math.random() * 11) + 1)) {
                 case 1:
-                name = "Ray";
+                    name = "Ray";
                     break;
                 case 2:
                     name = "Steve";
@@ -147,9 +153,9 @@ function setDeathStory(){
                     break;
                 case 11:
                     name = "Cain";
-                killer = "your psychotic neighbor neighbor, aptly named " + name + ",";
-                break;
+                    break;
             }
+            killer = "your psychotic neighbor neighbor, aptly named " + name + ",";
             break;
         case 3:
             killer = "a distant cousin";
@@ -172,10 +178,11 @@ function setDeathStory(){
             killer = "some neighborhood kids";
             break;
     }
-
-
-
-    switch (Math.floor((Math.random() * 11) + 1)) {
+    
+    
+    
+    //What they did or verb
+    switch (Math.floor((Math.random() * 12) + 1)) {
         case 1:
             verb = "smashed";
             break;
@@ -209,19 +216,54 @@ function setDeathStory(){
         case 11:
             verb = "decapitated";
             break;
+        case 12:
+            verb = "stole";
+            break;
     }
     verb = " " + verb + " "
 
+    
+    
+    //Body part or noun
     switch (Math.floor((Math.random() * 11) + 1)) {
         case 1:
-            noun = "Cereberal Cortex";
+            noun = "cereberal cortex";
             break;
         case 2:
+            noun = "lungs";
+            break;
+        case 3:
+            noun = " frontal lobe";
+            break;
+        case 4:
+            noun = "left ring finger's middle knuckle";
+            break;
+        case 5:
+            noun = "favorite wrist bone";
+            break;
+        case 6:
+            noun = "nose hair";
+            break;
+        case 7:
+            noun = "right femur";
+            break;
+        case 8:
+            noun = "favorite incisor";
+            break;
+        case 9:
+            noun = "kidneys";
+            break;
+        case 10:
+            noun = "pancreas";
+            break;
+        case 11:
             noun = "Lungs";
             break;
     }
 
-
+    
+    
+    //Prison sentence
     var prisonSentenceLen = Math.floor((Math.random() * 31));
     if (prisonSentenceLen === 30) {
         prisonSentence = "Your monstrous foe was given a life sentence.";
@@ -230,25 +272,24 @@ function setDeathStory(){
         prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as 'Guilty.' Looks like no one cared about you!";
     }
     else if (prisonSentenceLen >= 20){
-        prisonSentence = "Your killer got off with " + prisonSentence + " years. You feel like justice has been served.";
+        prisonSentence = "Your killer got off with " + prisonSentenceLen + " years. You feel like justice has been served.";
     }
     else if (prisonSentenceLen >= 15){
-        prisonSentence = "Your killer got off with " + prisonSentence + " years.";
+        prisonSentence = "Your killer got off with " + prisonSentenceLen + " years.";
     }
     else if (prisonSentenceLen >= 10){
-        prisonSentence = "Your killer got off with only " + prisonSentence + " years.";
+        prisonSentence = "Your killer got off with only " + prisonSentenceLen + " years.";
     }
     else if (prisonSentenceLen >= 5){
-        prisonSentence = "Your killer got off with only " + prisonSentence + " years. You feel like they deserved more for killing you.";
+        prisonSentence = "Your killer got off with only " + prisonSentenceLen + " years. You feel like they deserved more for killing you.";
     }
     else {
-        prisonSentence = "Your killer got off with only " + prisonSentence + " years. AnOtHeR eFfEcTiVe RuLiNg StRaIgHt FrOm tHe UnItEd StAtEs JuStIcE sYsTeM.";
+        prisonSentence = "Your killer got off with only " + prisonSentenceLen + " years. Another effective ruling from the United States Justice System.";
     }
 
-    noun = job;
-    job = noun;
-
-    var deathStory = "Long story short, you died after " + killer + verb + "your" + "_____. " + prisonSentence;
-    var causeOfDeath = "Died after " + killer + verb + "your" + "";
-    document.getElementById("death_story").value = deathStory + "     " + causeOfDeath;
+    
+    
+    var deathStory = "Long story short, you died after " + killer + verb + "your " + noun + ". " + prisonSentence;
+    var causeOfDeath = "Died after " + killer + verb + "their " + noun;
+    document.getElementById("death_story").innerHTML = deathStory + " . ... . . . . .. . .. .. . . . . . .. .. . .. .. . .. .. . . . . . . .. . ." + causeOfDeath;
 }
