@@ -93,7 +93,7 @@ switch (Math.floor((Math.random() * 15) + 1)) {
         verb = " burnt ";
         break;
     case 11:
-        verb = " burnt ";
+        verb = "  ";
         break;
 }
 
