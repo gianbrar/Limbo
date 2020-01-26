@@ -120,5 +120,5 @@ switch (Math.floor((Math.random() * 15) + 1)) {
 }
 
 
-var deathStory = "Long story short, you died after " + killer + verb + "your" + "";
+var deathStory = "Long story short, you died after " + killer + verb + " your" + "";
 document.getElementById("death_story")
