@@ -269,22 +269,22 @@ function setDeathStory(){
         prisonSentence = "Your monstrous foe was given a life sentence.";
     }
     else if (prisonSentenceLen === 0) {
-        prisonSentence = "Your murderer got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as 'Guilty.' Looks like no one cared about you!";
+        prisonSentence = "They got off scot free, with not a single charge nor any additions to their criminal record. Despite this, they were noted as 'Guilty.' Looks like no one cared about you!";
     }
     else if (prisonSentenceLen >= 20){
-        prisonSentence = "Your killer got off with " + prisonSentenceLen + " years. You feel like justice has been served.";
+        prisonSentence = "They got off with " + prisonSentenceLen + " years. You feel like justice has been served.";
     }
     else if (prisonSentenceLen >= 15){
-        prisonSentence = "Your killer got off with " + prisonSentenceLen + " years.";
+        prisonSentence = "They got off with " + prisonSentenceLen + " years.";
     }
     else if (prisonSentenceLen >= 10){
-        prisonSentence = "Your killer got off with only " + prisonSentenceLen + " years.";
+        prisonSentence = "They got off with only " + prisonSentenceLen + " years.";
     }
     else if (prisonSentenceLen >= 5){
-        prisonSentence = "Your killer got off with only " + prisonSentenceLen + " years. You feel like they deserved more for killing you.";
+        prisonSentence = "They got off with only " + prisonSentenceLen + " years. You feel like they deserved more for killing you.";
     }
     else {
-        prisonSentence = "Your killer got off with only " + prisonSentenceLen + " years. Another effective ruling from the United States Justice System.";
+        prisonSentence = "They got off with only " + prisonSentenceLen + " years. Another effective ruling from the United States Justice System.";
     }
 
     
